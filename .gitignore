@@ -1,0 +1,25 @@
+# Public assets-only repo. Only assets/ and repo meta are tracked.
+# Never commit keys, Jan's face, or personal info.
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials*
+
+# Character files: not locked yet, keep private
+character/
+
+# Working docs (research, plans, notes) stay local
+research/
+plan/
+tasks/
+TASK_PLAN.md
+FOR_Jan_*.md
+production-log.md
+
+# OS / editor
+.DS_Store
+*.swp
