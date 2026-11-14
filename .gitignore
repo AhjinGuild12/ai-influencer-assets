@@ -10,12 +10,13 @@ secrets/
 credentials*
 
 # Character files: not locked yet, keep private
-character/
+/character/
 
 # Working docs (research, plans, notes) stay local
-research/
-plan/
-tasks/
+/research/
+/plan/
+/tasks/
+/voice/
 TASK_PLAN.md
 FOR_Jan_*.md
 production-log.md
